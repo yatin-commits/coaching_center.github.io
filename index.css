@@ -268,7 +268,7 @@ background: linear-gradient(90deg, rgba(100,111,212,1) 1%, rgba(36,47,155,1) 93%
     }
     .directions{
         width: 200px;
-        display: block;
+        display: none;
 
     }
     .waiting{
