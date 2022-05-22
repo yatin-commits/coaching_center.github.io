@@ -1,19 +1,4 @@
-*{
-    font-family: 'Poppins', sans-serif;
-}
-.navibar{
-    color: red !important;
-    z-index: 1;
-}
-.navbar{
-    background: rgb(100,111,212);
-background: linear-gradient(90deg, rgba(100,111,212,1) 1%, rgba(36,47,155,1) 93%);
 
-
-}
-a.nav-link.active{
-    margin-right: 30px;
-}
 
 /* .curved {
     position: relative;

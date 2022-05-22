@@ -1,33 +1,8 @@
-*{
-    font-family: 'Poppins', sans-serif;
-    /* font-family: 'Smooch', cursive; */
-}
-.navibar{
-    color: red !important;
-    z-index: 1;
-}
-.navbar{
-    background: rgb(100,111,212);
-background: linear-gradient(90deg, rgba(100,111,212,1) 1%, rgba(36,47,155,1) 93%);
-
-
-}
-a.nav-link.active{
-    margin-right: 30px;
-}
-
-
-
-.feature{
-    display: flex;
-    justify-content: space-around;
-}
-
 .key{
     text-align: center;
     font-size:60px;
     font-family: 'Alfa Slab One', cursive;
-   color:  rgb(222,133,208);
+    color: rgb(131,58,180);
    letter-spacing: 8px;
    text-decoration: underline;
 /* background: linear-gradient(90deg, rgba(222,133,208,1) 48%, rgba(44,182,198,1) 94%); */

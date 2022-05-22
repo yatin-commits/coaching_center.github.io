@@ -1,0 +1,88 @@
+.contact-us{
+    text-align: center;
+    font-size:60px;
+    font-family: 'Alfa Slab One', cursive;
+    color: rgb(131,58,180);
+   letter-spacing: 8px;
+   text-decoration: underline;
+}
+.cont-img{
+    height: 400px;
+}
+
+.images{
+    display: flex;
+    justify-content:space-between;
+    flex-direction: row;
+
+
+}
+#faram{
+    width: 500px;
+}
+.faram{
+
+    width: 500px;
+}
+.small-img{
+    height: 80px;
+    padding: 8px;
+}
+.link-img{
+    display: flex;
+    justify-content: space-around ;
+    /* text-align: center; */
+    align-items: center;
+    width: 500px;
+    flex-direction: column;
+    border-right: 2px solid black;
+}
+.cont-btn{
+    border: 0px;
+    height: 40px;
+    border-radius: 5px;
+    background: rgb(131,58,180);
+    color: white;
+    font-weight: 500;
+
+
+}
+.dividetext{
+    background:#fff; 
+    padding:0 10px; 
+}
+text {
+    width: 100%; 
+    text-align: center; 
+    border-bottom: 1px solid #000; 
+    line-height: 0.1em;
+    margin: 10px 0 20px; 
+ } 
+.form-group{
+     width: 500px;
+ }
+ @media screen and (min-device-width: 100px) and (max-device-width: 450px) { 
+     .images{
+         flex-wrap: wrap;
+         padding: 20px;
+     }
+     .link-img{
+         border-right: 0px;
+         border-bottom: 2px solid black;
+         padding: 20px;
+     }
+     .form-group{
+         width: 100%;
+
+     }
+     .faram{
+         width: 100%;
+         padding: 20px;
+     }
+     .faram button{
+         text-align: center;
+         align-items: center;
+         justify-content: center;
+     }
+
+ }
