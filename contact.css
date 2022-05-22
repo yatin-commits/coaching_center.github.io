@@ -26,6 +26,8 @@
 }
 .small-img{
     height: 80px;
+    width: 80px;
+    margin: auto;
     padding: 8px;
 }
 .link-img{
@@ -65,20 +67,47 @@ text {
      .images{
          flex-wrap: wrap;
          padding: 20px;
-         margin-top: -30px;
+         margin-top: 0px;
+         flex-direction: column-reverse;
+         justify-content: space-between;
+     }
+     
+     .contact-us{
+         font-size: 50px;
      }
      .link-img{
          border-right: 0px;
-         border-bottom: 2px solid black;
-         padding: 20px;
+         height: auto;
+         /* border-bottom: 2px solid black; */
+         /* padding: 20px; */
+         width: 100%;
+         display: flex;
+         flex-direction: row;
+         margin: 0px;
      }
+
      .form-group{
          width: 100%;
 
      }
+     .remove{
+         display: none;
+     }
+     .small-img{
+         height: 50px;
+         width: 50px;
+         margin-top: -30px;
+     }
+     .cont-btn{
+         display: none;
+     }
      .faram{
          width: 100%;
          padding: 20px;
+     }
+     #faram{
+         width: 100%;
+         padding-bottom: 0;
      }
      .faram button{
          text-align: center;
@@ -88,5 +117,9 @@ text {
      .noneed{
          display: none;
      }
+     .text{
+         border: 0px;
+     }
+
 
  }
