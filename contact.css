@@ -65,6 +65,7 @@ text {
      .images{
          flex-wrap: wrap;
          padding: 20px;
+         margin-top: -30px;
      }
      .link-img{
          border-right: 0px;
@@ -83,6 +84,9 @@ text {
          text-align: center;
          align-items: center;
          justify-content: center;
+     }
+     .noneed{
+         display: none;
      }
 
  }
