@@ -104,6 +104,7 @@ text {
      .faram{
          width: 100%;
          padding: 20px;
+         /* padding-bottom: 0; */
      }
      #faram{
          width: 100%;
